@@ -8,17 +8,11 @@ hero:
     to: https://ui.nuxt.com/pro
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
+    - label: Start by clicking here to go down
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-      to: '#features'
+      to: '#cta'
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
-      size: xl
-      color: gray
-      to: https://github.com/nuxt-ui-pro/landing
-      target: _blank
 logos:
   title: Trusted by the world's best
   icons:
@@ -152,8 +146,9 @@ cta:
   title: Get started today
   description: Nisi mollit id aliquip sunt est laborum sit sit.
   links:
-    - label: Sign up for free
+    - label: click here to see bug
       size: xl
+      to: '/page2'
 faq:
   title: Frequently asked questions
   description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.

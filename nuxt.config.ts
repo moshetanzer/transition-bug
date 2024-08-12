@@ -1,7 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
-
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      htmlAttrs: {
+        lang: 'en'
+      }
+    }
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -10,10 +17,7 @@ export default defineNuxtConfig({
     '@nuxt/ui'
   ],
 
-  routeRules: {
-    // Temporary workaround for prerender regression. see https://github.com/nuxt/nuxt/issues/27490
-    '/': { prerender: true }
-  },
+
 
   devtools: {
     enabled: true

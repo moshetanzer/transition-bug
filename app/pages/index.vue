@@ -118,6 +118,7 @@ useSeoMeta({
       <ULandingCTA
         v-bind="page.cta"
         :card="false"
+        id="cta"
       />
     </ULandingSection>
 
